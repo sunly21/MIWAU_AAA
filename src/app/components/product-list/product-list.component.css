@@ -1,0 +1,19 @@
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    .product {
+      text-align: center;
+      padding: 10px;
+      img {
+        width: 150px;
+        height: auto;
+      }
+      button {
+        background-color: #36c2c0;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  

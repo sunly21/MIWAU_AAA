@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+.header-footer-container {
+    border: 2px solid #ccc; /* Borde alrededor del encabezado y pie */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px auto; /* Espaciado externo */
+    width: 90%; /* Ancho del contenedor */
+    background-color: white; /* Fondo blanco */
+}

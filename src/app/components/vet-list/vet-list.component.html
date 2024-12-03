@@ -1,0 +1,8 @@
+<div class="vet-container">
+    <div class="vet-card" *ngFor="let vet of veterinarias">
+      <img [src]="vet.image" alt="{{ vet.name }}" />
+      <h3>{{ vet.name }}</h3>
+      <button [routerLink]="vet.contact">Contacto para agendar</button>
+    </div>
+  </div>
+  

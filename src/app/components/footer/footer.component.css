@@ -1,0 +1,27 @@
+.footer {
+    background-color: #36c2c0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    .footer-links {
+      margin-top: 10px;
+      a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .header-footer-container {
+        border-top: 2px solid #007BFF; /* Solo borde superior */
+        border-radius: 10px 10px 0 0; /* Bordes redondeados arriba */
+        padding: 20px; /* Espaciado interno */
+        background-color: #36c2c0; /* Fondo del pie */
+    }
+    
+    }
+  }
+  

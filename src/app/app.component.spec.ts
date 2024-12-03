@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'miwau_angularapp' title`, () => {
+  it(`should have the 'miwau' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('miwau_angularapp');
+    expect(app.title).toEqual('miwau');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, miwau_angularapp');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, miwau');
   });
 });

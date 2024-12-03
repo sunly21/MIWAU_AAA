@@ -1,0 +1,130 @@
+.main-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ddd; /* Borde del contenedor principal */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+.featured-background {
+    background-image: url('/featured-image.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 300px; /* Altura de la sección */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para mejor legibilidad */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espacio debajo */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #36c2c0;
+    padding: 20px 50px;
+    color: white;
+    font-size: 14px;
+    border-top: 4px solid #007BFF; /* Borde superior */
+    border-radius: 10px 10px 0 0; /* Esquinas redondeadas arriba */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+    border: 1px solid #ffffff33; /* Bordes sutiles */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.special-offers form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #007BFF; /* Borde alrededor del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+}
+
+.special-offers form label {
+    margin-bottom: 5px;
+}
+
+.special-offers form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 4px;
+}
+
+.special-offers form button {
+    padding: 8px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.special-offers form button:hover {
+    background-color: #0056b3;
+}
+
+.special-offers p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.featured-image {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+    margin: 20px 0;         /* Espaciado superior e inferior */
+}
+
+.featured-image img {
+    max-width: 80%;         /* Ajusta el ancho máximo al 80% del contenedor */
+    height: auto;           /* Mantén la proporción de la imagen */
+    border-radius: 10px;    /* Esquinas redondeadas */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.3s ease; /* Efecto al agrandar */
+}
+
+.featured-image img:hover {
+    transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
+}
+
+   
+  
